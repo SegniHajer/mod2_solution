@@ -33,16 +33,14 @@
       var service = this;
   
       var itemsToBuy = [ 
-        { name: "Haggis", quantity: 1 }, 
-        { name: "Neeps", quantity: 2 }, 
-        { name: "Tatties", quantity: 3 }, 
-        { name: "Drams", quantity: 4 }, 
-        { name: "Tablet", quantity: 5 }, 
-        { name: "Fudge", quantity: 6 }, 
-        { name: "Jelly Babies", quantity: 7 }, 
-        { name: "Salt & Vinegar Crisps", quantity: 8 }, 
-        { name: "Ale", quantity: 9 }, 
-        { name: "Plum Pudding", quantity: 10 } 
+        { name: "Apples", quantity: 1 }, 
+        { name: "Paprika", quantity: 2 }, 
+        { name: "tomatos", quantity: 3 }, 
+        { name: "frites", quantity: 4 }, 
+        { name: "sucker", quantity: 5 }, 
+        { name: "lasagna", quantity: 6 }, 
+        { name: "pizzas", quantity: 7 }, 
+       
       ];
   
       var itemsBought = [];
