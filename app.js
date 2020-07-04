@@ -34,9 +34,9 @@
   
       var itemsToBuy = [ 
         { name: "Apples", quantity: 1 }, 
-        { name: "Paprika", quantity: 2 }, 
+        { name: "Paprika", quantity:10 }, 
         { name: "tomatos", quantity: 3 }, 
-        { name: "frites", quantity: 4 }, 
+        { name: "frites", quantity: 2 }, 
         { name: "sucker", quantity: 5 }, 
         { name: "lasagna", quantity: 6 }, 
         { name: "pizzas", quantity: 7 }, 

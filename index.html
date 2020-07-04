@@ -36,7 +36,7 @@
       <div class="col-md-6">
         <div ng-controller="ToBuyShoppingController as listToBuy">
           <h2>To Buy</h2>
-          <ol>
+          <ul>
             <div ng-show="listToBuy.items.length > 0">
               <li ng-repeat="item in listToBuy.items;">
                 {{ item.quantity }} of {{ item.name }} 
@@ -46,7 +46,7 @@
             <div ng-show="listToBuy.items.length == 0">
               <div class="emptyMessage">Everything is bought!</div>
             </div>
-          </ol>
+        </ul>
         </div>
       </div>
 
@@ -54,9 +54,10 @@
         <div ng-controller="AlreadyBoughtShoppingController as listBought">
           <h2>Already Bought</h2>
           <div ng-show="listBought.items.length > 0">
-            <ol>
-              <li ng-repeat="item in listBought.items;">{{ item.quantity }} of {{ item.name }}</li>
-            </ol>
+              <ul>
+                <li ng-repeat="item in listBought.items;">{{ item.quantity }} of {{ item.name }}</li>
+              </ul>
+  
           </div>
           <div ng-show="listBought.items.length == 0">
             <!-- <p>Nothing bought yet!</p> -->
